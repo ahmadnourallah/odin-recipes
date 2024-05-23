@@ -1,25 +1,43 @@
-* {
+body {
     font-family: Georgia, sans-serif;
+    background-color: #845ec2;
+    margin: 0;
+    padding: 0;
 }
 
-.imgContainer, h1 {
+p, li {
+    color: white;
+    font-size: 18px;
+}
+
+p {
+    margin: 18px;
+}
+
+h1 {
     text-align: center;
+    margin-top: 0px;
+    font-size: 40px;
 }
 
 img {
     height: 500px;
-    width: 600px;
+    width: 45%;
+    display: block;
+    margin: 0px auto;
 }
 
 h1, h2 {
     color: white;
-    background-color: blue;
+    background-color: #9a72d9;
+    padding: 8px;
 }
 
-h1 {
-    font-size: 40px;
+a {
+    color: white;
 }
 
-a:hover {
-    color: black;
+li {
+    padding: 10px;
+    margin: 20px 0px;
 }
